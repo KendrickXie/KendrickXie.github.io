@@ -21,9 +21,10 @@
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
 							<li><a href="#one">About Me</a></li>
-							<li><a href="#two">Experience</a></li>
-							<li><a href="#three">Projects</a></li>
-							<li><a href="#four">Get in touch</a></li>
+							<li><a href="#two">Project Demos</a></li>
+							<li><a href="#three">Experience</a></li>
+							<li><a href="#four">Projects</a></li>
+							<li><a href="#five">Get in touch</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -57,7 +58,36 @@
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
+					<section id="two" class="wrapper style2 spotlights">
+						<div class="inner">
+							<h2>Project Demos</h2>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-robot"></span>
+									<h3>Gridshot Targeting System</h3>
+									<h4>University of Chicago</h4>
+									<h5>June 2022</h5>
+									<p>Programmed a robot to target and shoot lasers at recognized faces. Implemented Q-Learning to conduct a field scan and find the optimal order of targets to shoot according to a custom scoring system</p>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/klaCk9TM8Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<h4>The robot aims a laser at pictures of Chris Rock once a picture of Jada Smith is within view.</h4>
+									<p>You can visit the project GitHub repository <a href="https://github.com/KendrickXie/robotics_final_project">here</a>.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-gamepad"></span>
+									<h3>Jumpy Boys</h3>
+									<h4>University of Chicago</h4>
+									<h5>June 2022</h5>
+									<p>Created a platformer using Godot where the goal is to collect all eleven coins on the map as fast as possible. The game features challenging physics and requires teamwork to succeed.</p>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/IvqJJwKfEDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<h4>Cocreator Josh Preston and I playtest Jumpy Boys</h4>
+									<p>You can download and play the game <a href="https://drive.google.com/drive/folders/1lvU7zyjZ1RVhRsRJwJpd1r9pdmOQl_HJ?usp=sharing">here</a>.</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Experience</h2>
 							<div class="features">
@@ -67,10 +97,9 @@
 									<h4>Argonne National Laboratory</h4>
 									<h5>July 2022 - September 2022</h5>
 									<p>
-										- Implemented a new driver to control UR5e robot arms through user inputs. Applied computer vision algorithms to center UR5e robot grippers on a QR code
-										<br>- Assessed the viability of new navigation and manipulator robots in lab automation
-										<br>- Designed and 3-D printed robotic grippers for LoCoBot robot arm
-										<br>- Utilized HTTP to control OT-2 Pipetting Robot</p>
+										- Implemented a new driver to control UR5e robot arms through user inputs for integration in Argonne National Laboratory's Rapid Prototyping Lab. Applied computer vision algorithms to center robot grippers on a QR code
+										<br>- Assessed compatibility of new navigation and manipulator robots with robot operating systems that publish instructions for precise mechanical movements
+										<br>- Designed and 3-D printed new robotic grippers for LoCoBot robot arm to improve compatibility with labware</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-laptop"></span>
@@ -90,15 +119,13 @@
 									<h4>Phoenix Gaming and Esports (University of Chicago Recognized Student Organization)</h4>
 									<h5>October 2020 - Present</h5>
 									<p>
-										- Generate ideas for funding
-										<br>- Recruit university students to the Valorant team
-										<br>- Search for tournaments and leagues for members to participate in
-										<br>- Coordinate multiple teams for scrimmages and collegiate matches
-										<br>- Research opposing universities and develop strategies against each opponent</p>
+										- Organize scrimmages and manage collegiate matches and tournaments for 30 undergraduate esports players
+										<br>- Created roadmap for future funding and negotiated options with student government and Computer Science Department
+										<br>- Represented esports club at the university career fair and recruited first-year students to multiple gaming titles</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-school"></span>
-									<h3>Teacher’s Aide and Tutor</h3>
+									<h3>Teacher's Aide and Tutor</h3>
 									<h4>MetroSquash</h4>
 									<h5>September 2017 - April 2018</h5>
 									<p>
@@ -109,53 +136,52 @@
 						</div>
 					</section>
 				
-				<!-- Three-->
-					<section id="three" class="wrapper style3 fade-up">
+				<!-- Four -->
+					<section id="four" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Projects</h2>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-robot"></span>
-									<h3>Will Smith Robot Slaps Chris Rock Balloon</h3>
+									<h3>Particle Filter Localization</h3>
 									<h4>University of Chicago</h4>
-									<p>Programed a robot to aim a laser at pictures of Chris Rock’s face only if a picture of Jada Smith is within view. Implemented Q-Learning (a reinforcement learning algorithm) to shoot the pictures in the optimal order according to custom scoring rules based on distance and displacement of pictures</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-robot"></span>
-									<h3>Particle Localization</h3>
-									<h4>University of Chicago</h4>
-									<p>Estimate position and orientation of a robot in a given map  by generating virtual particles at hypothetical positions of the robot and filtering out particles that do not match the robot’s sensor measurements</p>
+									<h5>April 2022</h5>
+									<p>Estimated position and orientation of robots in a controlled space by generating and filtering virtual particles that matched the robot's sensor measurements</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-robot"></span>
 									<h3>Q-Learning</h3>
 									<h4>University of Chicago</h4>
-									<p>Teach a robot to pick up objects and place them in the correct locations using a Q-Learning algorithm</p>
+									<h5>May 2022</h5>
+									<p>Taught a robot to pick up objects and place them in the correct locations by implementing a Q-Learning algorithm</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-wifi"></span>
 									<h3>IP Router</h3>
 									<h4>University of Chicago</h4>
-									<p>Implement an IP router capable of routing IPv4 datagrams between multiple networks</p>
+									<h5>February 2022</h5>
+									<p>Implemented an IP router capable of routing IPv4 datagrams between multiple networks</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-wifi"></span>
 									<h3>Transmission Control Protocol</h3>
 									<h4>University of Chicago</h4>
-									<p>Implement the Transmission Control Protocol, a standard that defines how to establish and maintain a network conversation by which applications can exchange data</p>
+									<h5>February 2022</h5>
+									<p>Implemented the Transmission Control Protocol, a standard that defines how to establish and maintain a network conversation by which applications can exchange data</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-wifi"></span>
 									<h3>Internet Relay Chat Server</h3>
 									<h4>University of Chicago</h4>
-									<p>Implement a system that is compliant with IRC protocols allowing IRC clients to communicate with the server and relay messages between each other</p>
+									<h5>March 2022</h5>
+									<p>Implemented a system that is compliant with IRC protocols allowing IRC clients to communicate with the server and relay messages between each other</p>
 								</section>
 							</div>
 						</div>
 					</section>
 
-				<!-- Four -->
-					<section id="four" class="wrapper style1 fade-up">
+				<!-- Five -->
+					<section id="five" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
 							<div class="split style1">
